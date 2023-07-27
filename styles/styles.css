@@ -152,8 +152,8 @@ a.button:any-link, button {
   font-style: normal;
   font-weight: 600;
   cursor: pointer;
-  color: var(--background-color);
-  background-color: var(--link-color);
+  color: black;
+  background-color: red;
   margin: 16px 0;
   white-space: nowrap;
   overflow: hidden;
@@ -162,7 +162,9 @@ a.button:any-link, button {
 }
 
 a.button:hover, a.button:focus, button:hover, button:focus  {
-  background-color: var(--link-hover-color);
+  background-color: white;
+  color: red;
+  border-color: red;
   cursor: pointer;
 }
 
